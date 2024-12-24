@@ -18,4 +18,3 @@ document.body.addEventListener('mousemove', (event) => {
       sparkle.remove();
     });
   });
-  
