@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(/aesthetic-christmas-laptop-uzc96zpyi35p7jsm.jpg);
+    background-image: url(aesthetic-christmas-laptop-uzc96zpyi35p7jsm.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -37,7 +37,7 @@ h1 {
 
 }
 .chuteira {
-    background-image: url(/chuteira.jpeg);
+    background-image: url(chuteira.jpeg);
     background-position: center;
     background-size: contain;
 
