@@ -32,12 +32,12 @@ h1 {
     font-family: 'Mountains of Christmas'; font-size: 40px;
 }
 .porsche {
-    background-image: url(/pics/Porsche.jpg);
+    background-image: url(/pics/Porsche.JPG);
     background-position: center;
 
 }
 .chuteira {
-    background-image: url(/pics/chuteira.jpeg);
+    background-image: url(/pics/chuteira.JPEG);
     background-position: center;
     background-size: contain;
 
