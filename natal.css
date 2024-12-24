@@ -45,8 +45,10 @@ h1 {
 
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
     /* background-color: rgb(233, 78, 27); */
 }
 
@@ -55,8 +57,8 @@ h1 {
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    width: 100%;
-    height: 300px;
+    width: 300px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,49 +75,8 @@ h1 {
     transform: translateY(-10px);
 }
 
-.header {
-    background-color: rgb(0, 108, 168);
-    margin: 0;
-    width: 100%;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px 8px 0 0;
-}
-
-.card h2 {
-    font-size: 1.4em;
-    color: white;
-    margin-bottom: 15px;
-}
-/*
-.card-content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.left-column, .middle-column .right-column {
-    width: 33%;
-}
- */
-.card-content {
-    padding: 20px;
-}
-.card-content p {
-    margin: 8px 0;
-    color: #555;
-    font-size: 0.95em;
-    /* border: 1px solid black; */
-}
-/*
-.card-content p strong {
-    color: #333;
-}
- */
-
 .comprar {
-    background-color: rgb(0, 108, 168);
+    background-color: rgb(0, 163, 0);
     position: absolute;
     bottom: 1rem;
     text-decoration: none;
@@ -132,7 +93,7 @@ h1 {
 }
 
 .comprar:hover {
-    background-color: rgb(32, 121, 255);
+    background-color: rgb(0, 204, 0);
 }
 
 @media (max-width: 768px) {
